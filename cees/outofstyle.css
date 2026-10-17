@@ -1,0 +1,22 @@
+p {
+  color: #efe6e6;
+  line-height: 1.6;
+}
+
+.navi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #e4d717;
+    font-weight: bold;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #551281;
+}
