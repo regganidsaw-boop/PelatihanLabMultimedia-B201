@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id" class="scroll-smooth">
+<html lang="id" class="scroll-smooth scroll-pt-52 sm:scroll-pt-25">
 
 <head>
   <meta charset="UTF-8">
@@ -9,67 +9,77 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-[#9337d0] text-white font-serif">
-    <header class="bg-[#551281] border-b">
-        <div class="max-w-[900px] min-hh[67px] mx-auto px-6 flex items-center justify-between">
-        <a href="#home" class="font-bold text-[#e4d717]">Ganis</a>
-        <div>
-        <div class="navi">
-        <a href="#about" class="font-sans font-bold text-[#e4d717]">About</a>
-        <a href="#skills" class="font-sans font-bold text-[#e4d717]">Skills</a>
-        <a href="#projects" class="font-sans font-bold text-[#e4d717]">Projects</a>
-        <a href="#contacts" class="font-sans font-bold text-[#e4d717]">Contacts</a>
-        </div>
-        <hr>
-    </header>
+<body class="bg-[#fbe99a] text-[#1d3340] font-serif italic min-h-screen">
+    <header class="sticky top-0 z-50 bg-[#f9dd7a] border-b-4 border-[#3b6b73] shadow-md pb-3">
+    <div class="max-w-[960px] mx-auto px-6 pt-6 flex flex-wrap items-center justify-between gap-4">
+      <a href="#home" class="bg-[#cfeae4] font-bold px-5 py-2 rounded-full shadow-[0_4px_0_#3b6b73]">Ganis</a>
+      <div class="flex flex-wrap items-center gap-3">
+        <a href="#about" class="bg-[#fffdf3] font-bold px-5 py-2 rounded-full shadow-[0_4px_0_#d9c9a0] hover:-translate-y-0.5 transition">About</a>
+        <a href="#skills" class="bg-[#fffdf3] font-bold px-5 py-2 rounded-full shadow-[0_4px_0_#d9c9a0] hover:-translate-y-0.5 transition">Skills</a>
+        <a href="#projects" class="bg-[#fffdf3] font-bold px-5 py-2 rounded-full shadow-[0_4px_0_#d9c9a0] hover:-translate-y-0.5 transition">Projects</a>
+        <a href="#contacts" class="bg-[#fffdf3] font-bold px-5 py-2 rounded-full shadow-[0_4px_0_#d9c9a0] hover:-translate-y-0.5 transition">Contacts</a>
+      </div>
+    </div>
+  </header>
 
-    <main class="max-w-[960px] max-auto px-6">
-    <section id="home" class="px-14 sm:py-16 flex flex-col sm:flex-row items-start sm:items-center">
-        <img src="assets/rhine.png" width="200px" alt="MOTHER" class="rounded-full border-4 border-[#e4d717] mb-4 sm:mb-0 sm:mr-6">
-        <div class="flex flex-col">
+  <main class="max-w-[960px] mx-auto px-6 pb-16">
+    <section id="home" class="mt-10 bg-[#ee8fb0] text-white rounded-3xl border-4 border-white/70 shadow-lg p-8 flex flex-col sm:flex-row items-start sm:items-center gap-8">
+      <img src="assets/rhine.png" alt="MOTHER" class="w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover shrink-0 border-4 border-[#f6d94a]">
+      <div class="flex flex-col">
         <p class="text-xs font-bold tracking-[0.08cm] uppercase">Computer Engineering Student</p>
-        <h1 class="text-4xl sm:text-[2.6rem font-bold leading-tight mt-1 mb-2">Rengganis Dewi Sekar Arum</h1>
-        <p class="text-l">Interested in many things i can't say one to one</p>
+        <h1 class="text-4xl sm:text-[2.6rem] font-bold leading-tight mt-1 mb-2">Rengganis Dewi Sekar Arum</h1>
+        <p class="text-lg">Interested in learning more about game development and web design</p>
+      </div>
     </section>
 
-    <section id="about">
-        <p classA little about me...</p>
-        <h2 class="font-bold text-[#e4d717]">About Me</h2>
-        <p>Aku suka baca fenfik aku suka apa aja</p>
-        <hr>    
+    <section id="about" class="mt-10 bg-[#cfeae4] rounded-3xl border-4 border-[#3b6b73] shadow-lg p-8">
+      <p class="text-xs font-bold tracking-[0.08cm] uppercase">A little about me</p>
+      <h2 class="text-3xl font-bold mt-1 mb-4">About Me</h2>
+      <p class="leading-relaxed text-justify not-italic">Saya, Rengganis Dewi Sekar Arum, adalah mahasiswa Institut Teknologi Sepuluh Nopember dari
+departemen Teknik Komputer dengan karakter yang passionate dan selalu ingin tahu. Keingintahuan
+ini mendorong saya untuk banyak belajar, terlebih lagi dalam bidang game development dan web design yang mengasah kreativitas saya.</p>
     </section>
 
-    <section id="Skills">
-        <p class="font-bold">What i work with</p>
-        <h2 class="font-bold text-[#e4d717]">Skills</h2>
-        <span>Ao3</span>
-        <span>Canva</span>
-        <span>Figma</span>
-        <span>Insyaallah HTML</span>
-        <hr> 
+    <section id="skills" class="mt-10 bg-[#cfeae4] rounded-3xl border-4 border-[#3b6b73] shadow-lg p-8">
+      <p class="text-xs font-bold tracking-[0.08cm] uppercase">What i work with</p>
+      <h2 class="text-3xl font-bold mt-1 mb-4">Skills</h2>
+      <div class="flex flex-wrap gap-4">
+        <span class="font-bold bg-[#f7b6cb] px-5 py-1.5 rounded-full shadow-[0_4px_0_#d7708f]">HTML</span>
+        <span class="font-bold bg-[#f6d94a] px-5 py-1.5 rounded-full shadow-[0_4px_0_#cfa91d]">CSS</span>
+        <span class="font-bold bg-[#fffdf3] px-5 py-1.5 rounded-full shadow-[0_4px_0_#d9c9a0]">Tailwind CSS</span>
+        <span class="font-bold bg-[#c4e69b] px-5 py-1.5 rounded-full shadow-[0_4px_0_#82b255]">Python</span>
+        <span class="font-bold bg-[#f7bf80] px-5 py-1.5 rounded-full shadow-[0_4px_0_#d68a3c]">C++</span>
+      </div>
     </section>
 
-    <section id="projects">
-        <p class="font-bold">Carefully selected</p>
-        <h2 class="font-bold text-[#e4d717]">Projects</h2>
-        <div>
-            <p>Fan Fiction</p>
-            <p>SocMed AU</p>
-            <p>Ngedit apa aja</p>
+    <section id="projects" class="mt-10 bg-[#cfeae4] rounded-3xl border-4 border-[#3b6b73] shadow-lg p-8">
+      <p class="text-xs font-bold tracking-[0.08cm] uppercase">Past Works</p>
+      <h2 class="text-3xl font-bold mt-1 mb-4">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="bg-[#f6d94a] rounded-2xl p-5 shadow-[0_4px_0_#cfa91d]">
+          <p class="font-bold">Catch 'Em! (Game)</p>
         </div>
-        <hr
+        <div class="bg-[#f7b6cb] rounded-2xl p-5 shadow-[0_4px_0_#d7708f]">
+          <p class="font-bold">soft SERVE! (Game)</p>
+        </div>
+        <div class="bg-[#c4e69b] rounded-2xl p-5 shadow-[0_4px_0_#82b255]">
+          <p class="font-bold">2EZ4U (App)</p>
+        </div>
+      </div>
     </section>
 
-    <section id="contacts">
-        <p class="font-bold">Where to reach out</p>
-        <h2 class="font-bold text-[#e4d717]">Contacts</h2>
-        <p>GitHub: <a href="https://github.com/regganidsaw-boop" target="_blank">regganidsaw-boop</a></p>
-        <p>Email: <a href="mailto:regganidsaw@gmail.com">regganidsaw@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/rengganis-dewi-sekar-arum-dewi-a48109392/" target="_blank">Rengganis Dewi Sekar Arum</a></p>
-        <p>Instagram: <a href="https://www.instagram.com/regganidsaw/" target="_blank">regganidsaw</a></p>
-        <hr>
+    <section id="contacts" class="mt-10 bg-[#cfeae4] rounded-3xl border-4 border-[#3b6b73] shadow-lg p-8">
+      <p class="text-xs font-bold tracking-[0.08cm] uppercase">Where to reach out</p>
+      <h2 class="text-3xl font-bold mt-1 mb-4">Contacts</h2>
+      <div class="flex flex-col items-start gap-3">
+        <p class="bg-[#fffdf3] px-5 py-1.5 rounded-full shadow-[0_4px_0_#d9c9a0]"><span class="font-bold">GitHub:</span> <a class="underline hover:text-[#d68a3c]" href="https://github.com/regganidsaw-boop" target="_blank">regganidsaw-boop</a></p>
+        <p class="bg-[#f7bf80] px-5 py-1.5 rounded-full shadow-[0_4px_0_#d68a3c]"><span class="font-bold">Email:</span> <a class="underline hover:text-white" href="mailto:regganidsaw@gmail.com">regganidsaw@gmail.com</a></p>
+        <p class="bg-[#c4e69b] px-5 py-1.5 rounded-full shadow-[0_4px_0_#82b255]"><span class="font-bold">LinkedIn:</span> <a class="underline hover:text-white" href="https://www.linkedin.com/in/rengganis-dewi-sekar-arum-dewi-a48109392/" target="_blank">Rengganis Dewi Sekar Arum</a></p>
+        <p class="bg-[#f7b6cb] px-5 py-1.5 rounded-full shadow-[0_4px_0_#d7708f]"><span class="font-bold">Instagram:</span> <a class="underline hover:text-white" href="https://www.instagram.com/regganidsaw/" target="_blank">regganidsaw</a></p>
+      </div>
+      
     </section>
-
-</main>
+  </main>
 </body>
+
 </html>
