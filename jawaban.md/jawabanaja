@@ -1,0 +1,15 @@
+Soal 1
+1. Biar text enggak berubah ke italic, readability dengan italic itu berasa lebih tipis aja dan kadang suka bikin pusing buat
+    buat baca paragraf yang panjang kayak deskripsi diri.
+2. insyaallah pake style
+
+Soal 2
+1. 0_4px_0_warna isinya adalah biar dia shadownya drop ke bawah atau ke belakang dari, dimana dia drop kebawah di y sebanyak 4px itu,
+    sisanya 0 biar gak mbleber kemana mana
+2. ada hover itu biar pas cursor ngehover sebuah button biar dia kayak naik gitu sebagai penanda kalo dia lagi di button itu,
+    itu bagian interaktivitasnya
+
+Soal 3
+1. scroll padding pada hp lebih besar karena dia bentukan layarnya lebih padat/compact, text jadi lebih ke bawah, bentuk jadi
+    lebih ke bawah, jadi effortnya extra untuk turun makanya dia digedein scroll paddingnya untuk hp
+2. Fungsinya biar dia tetep punya bawahan 50, alias dia kayak tetep stay gak kemana mana gitu bawahnya buat top header
